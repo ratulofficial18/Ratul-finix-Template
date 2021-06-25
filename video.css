@@ -1,0 +1,79 @@
+.sign-up-section{
+    background-color:#f6f9fc ;
+}
+.sign-up-content{
+    background: #3763eb;
+    padding: 60px 30px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.input-group-class input {
+	height: 41px;
+	border-radius: 23px;
+	width: 259px;
+	border-color: #fff;
+}
+.input-group-class .btn-outline-secondary {
+	color: #fff;
+	background: #3763eb;
+	border-color: #fff;
+	margin-left: 90px;
+	padding: 10px 20px;
+	border-radius: 31px;
+}
+.sign-up-right-content{
+    box-shadow: 0 2px 28px 0 rgba(0,0,0,.09);
+    padding: 30px;
+}
+.buttons {
+	margin-left: -67px;
+}
+
+
+.content{}
+.content h6 {
+	font-size: 21px;
+	font-weight: 600;
+	color: #3763eb;
+	margin-bottom: 20px;
+}
+.content h1 {
+	width: 75%;
+	color: #111;
+	font-weight: 700;
+	margin-bottom: 30px;
+    position: relative;
+}
+.content h1::before {
+	content: "";
+	position: absolute;
+	top: 160px;
+	left: 0;
+	width: 61px;
+	height: 2px;
+	background-color: #3763eb;
+	background-position: center;
+}
+.content p {
+	color: #606060;
+	margin-top: 45px;
+}
+
+
+
+.main-sec{
+    height: auto;
+    width: auto;
+}
+.client-section-image img {
+	transition: 0.5s;
+	opacity: 0.5;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+.client-section-image img:hover{
+    color: #fff;
+    background-color: #f6f9fc;
+    opacity: 1;
+}
